@@ -1,6 +1,10 @@
 import styled from "styled-components";
 
-export const Table = styled.table``
+export const Table = styled.table`
+display: block;
+flex: initial;
+margin: 15px;
+`
 
 export const TableHeader = styled.thead`
 color: white;

@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const ListFriends = styled.ul`
 display: flex;
+flex: initial;
 flex-direction: column;
 gap: 16px;
 `

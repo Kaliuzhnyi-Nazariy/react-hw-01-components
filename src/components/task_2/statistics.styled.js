@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const StatisticsSection = styled.section`
 display: flex;
+flex: initial;
 flex-direction: column;
 justify-content: center;
 align-items: center;

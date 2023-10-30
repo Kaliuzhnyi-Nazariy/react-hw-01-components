@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const ProfileCard = styled.div`
 display: flex;
+flex: initial;
 flex-direction: column;
 justify-content: center;
 align-items: center;
@@ -16,7 +17,7 @@ width: 350px;
 background-color: rgb(211, 211, 211, 40%);
 padding: 24px;
 border-radius: 50%; 
-border: 4px solid rgb(0, 0, 0, 10%)
+border: 4px solid rgb(0, 0, 0, 10%);
 `
 
 export const Username = styled.p`
