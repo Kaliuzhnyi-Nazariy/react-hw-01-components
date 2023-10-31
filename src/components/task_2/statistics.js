@@ -13,16 +13,16 @@ export const Statistics = ({ title, stats }) => {
       {title && (
         <>
           <Title>{title}</Title>
-          <StatList>
-            {stats.map(val => (
-              <StatListItem key={val.id}>
-                <Label>{val.label}</Label>
-                <Percentage>{val.percentage}</Percentage>
-              </StatListItem>
-            ))}
-          </StatList>
         </>
       )}
+      <StatList>
+        {stats.map(val => (
+          <StatListItem key={val.id}>
+            <Label>{val.label}</Label>
+            <Percentage>{val.percentage}</Percentage>
+          </StatListItem>
+        ))}
+      </StatList>
     </StatisticsSection>
   );
 };

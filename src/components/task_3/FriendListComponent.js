@@ -8,7 +8,7 @@ import {
 
 export const ItemFriendList = val => {
   return (
-    <ListFriendsItem key={val.id}>
+    <ListFriendsItem>
       {val.isOnline ? <StatusTrue></StatusTrue> : <StatusFalse></StatusFalse>}
       <Avatar src={val.avatar} alt={val.name} width="48" />
       <UserName>{val.name}</UserName>
